@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.map_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.map_text h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: red;
+}
+
+.map {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.location li {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 60, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.location li:nth-child(1) {
+    top: 250px;
+    right: 600px;
+}
+
+.location li:nth-child(2) {
+    top: 150px;
+    right: 300px;
+}
+
+
+.location li:nth-child(3) {
+    top: 150px;
+    right: 600px;
+}
+
+.location li:nth-child(4) {
+    top: 250px;
+    right: 250px;
+}
+
+
+
+.map img {
+    width: 100%;
+    height: 520px;
+}
+
+.adress {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(196, 196, 196, 0.315);
+}
+
+.adress h1 {
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    width: 100%;
+    max-width: 750px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.modal_header h1 {
+    color: red;
+    font-weight: 600;
+}
+
+.modal_header span {
+    color: gray;
+}
+
+.modal_body h2 {
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.modal_body p {
+    color: black;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.modal_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal_header span {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
