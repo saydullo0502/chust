@@ -127,7 +127,7 @@ li {
     padding: 10px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 0 5px rgb(221, 221, 221);
+    /* box-shadow: 0 0 5px rgb(221, 221, 221); */
     cursor: pointer;
 }
 
