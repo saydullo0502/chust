@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(113 119 144 / 25%);
 }
 
 * {
@@ -22,26 +23,29 @@ li {
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 5rem;
+    margin-bottom: 5vw;
 }
 
 .map_text {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem auto;
 }
 
 .map_text h1 {
-    font-size: 50px;
+    font-size: 2.6vw;
     font-weight: 600;
     color: red;
+    margin: 0.83vw auto;
 }
 
 .map {
-    max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .location li {
@@ -50,23 +54,30 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(0, 60, 255);
-    font-weight: bold;
-    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 1.04vw;
+}
+
+.location li svg{
+    width: 1.8vw;
+    height: 2.2vw;
 }
 
 .location li:nth-child(1) {
-    top: 250px;
-    right: 600px;
+    top: 10.4vw;
+    right: 10.4vw;
 }
+
+
 
 .location li:nth-child(2) {
-    top: 150px;
-    right: 300px;
+    top: 4vw;
+    right: 22vw;
 }
 
 
-.location li:nth-child(3) {
+/* .location li:nth-child(3) {
     top: 150px;
     right: 600px;
 }
@@ -74,46 +85,33 @@ li {
 .location li:nth-child(4) {
     top: 250px;
     right: 250px;
-}
+} */
 
 
 
 .map img {
     width: 100%;
-    height: 520px;
+    height: 50vw;
 }
 
 .adress {
-    margin-top: 2rem;
+    margin-top: 3vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: rgba(196, 196, 196, 0.315);
+    gap: 1vw;
+    border-radius: 0.5vw;
+    padding: 1vw;
+    background-color: #fff;
+
 }
 
 .adress h1 {
     color: red;
-    font-size: 30px;
+    font-size: 2vw;
     cursor: pointer;
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .modal {
@@ -123,9 +121,9 @@ li {
     transform: translate(-50%, -50%);
     z-index: 100;
     width: 100%;
-    max-width: 750px;
-    padding: 10px;
-    border-radius: 10px;
+    max-width: 54vw;
+    padding: 1vw;
+    border-radius: 0.52vw;
     background-color: white;
     cursor: pointer;
 }
@@ -142,13 +140,13 @@ li {
 .modal_body h2 {
     color: gray;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
 }
 
 .modal_body p {
     color: black;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.5vw;
 }
 
 
@@ -156,10 +154,11 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    line-height: 1;
 }
 
 .modal_header span {
-    font-size: 45px;
+    font-size: 2.3vw;
     font-weight: 400;
 }
 
